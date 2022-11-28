@@ -14,6 +14,7 @@ COPY Makefile ./
 RUN cd /app
 RUN go mod init go.service.com/v1/api
 RUN go mod tidy
+
 RUN make build
 
 CMD ["./bin/fact"]

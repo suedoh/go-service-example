@@ -10,7 +10,7 @@ To run the project in develpment mode, run the command `make run`. Development f
 
 Currently there is an issue with the Dockerfile. When running a container, a connection can not be established establishe at the respective socket.
 
-here is a (screengrab)[https://imgur.com/izEBvEV] showing a `docker run -itd -p 3000:3000`, `docker ps -a` and a cURL GET.
+here is a ![screengrab](https://imgur.com/izEBvEV) showing a `docker run -itd -p 3000:3000`, `docker ps -a` and a cURL GET.
 
 Also, this is an experimental fun project for me to explore Go, SOA so at times, main might not have the respect it deserves in the name of me learning.
 

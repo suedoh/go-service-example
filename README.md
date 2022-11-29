@@ -2,7 +2,7 @@
 
 Apologies in advance for basic instructions on the first push.
 
-To build the project, make sure you have docker installed.
+To build the project, make sure you have docker installed. A `go mod init` should be ran before any sort of building. Also there isn't any package dependencies so far.
 
 This project is using a Makefile to run commands, so please make sure you have make installed before running the project.
 
